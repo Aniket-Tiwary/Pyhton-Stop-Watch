@@ -20,7 +20,7 @@ class stopWatch(tk.Frame):
     #All the features of Stopwatch are defined here
     def features(self):
         self.stopwatch_label = tk.Label(
-            self, text='00:00:00', background="black", foreground="white", font=('arial', 85, "bold"))
+            self, text='00:00:00', background="white", foreground="black", font=('arial', 85, "bold"))
         self.stopwatch_label.pack()
         self.start_time_button = tk.Button(self, text="START", height=5, width=7, font=(
             'arial', 19, "bold"), background="green", command=self.start_time)
